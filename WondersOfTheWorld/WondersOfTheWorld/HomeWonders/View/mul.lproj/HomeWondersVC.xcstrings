@@ -1,0 +1,20 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "hola " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hi"
+          }
+        }
+      }
+    },
+    "Key 1" : {
+      "extractionState" : "manual"
+    }
+  },
+  "version" : "1.0"
+}

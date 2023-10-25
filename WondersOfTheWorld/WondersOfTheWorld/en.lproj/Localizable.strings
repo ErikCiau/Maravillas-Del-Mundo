@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  WondersOfTheWorld
+
+  Created by KARILU GUTIERREZ VICENTE on 24/10/23.
+  
+*/
+// MARK: Nombres de las maravillas del mundo
+"MaravillasDelMundo" = "Wonders of the World";
+"MurallaChina" = "The Great Wall of China";
+"TajMahal" = "Taj Mahal";
+"Coliseo" = "The Roman Coliseum";
+"CristoRedentor" = "Christ the redeemer";
+"MachuPicchu" = "Machu Picchu";
+"Petra" = "Petra";
+"ChichenItza" = "Chichén Itzá";
+"Piramides" = "Giza Pyramids";
+// MARK: Descripciones
+"MurallaChinaDescription" = "Built between 770 and 476 BC, the Great Wall of China is an architectural marvel and the largest military defense project in the ancient world. It measures 21,196.18 km and has an average height of 7.8 meters. It performs various functions such as combat, command, observation, communication and concealment.";
+"TajMahalDescription" = "The Taj Mahal is a mausoleum built by the Mughal emperor Shah Jahan in honor of his favorite wife, Mumtaz Mahal (the Chosen One of the Palace or the Jewel of the Palace), who died in childbirth. Taj Mahal (short for Mumtaz Mahal) also means “The Jewel of the Palace”.";
+"ColiseoDescription" = "The Colosseum became the largest Roman amphitheater, with an elliptical structure 188 meters long, 156 meters wide and 57 meters high. Made of brick and covered with travertine, it was divided into five levels with a capacity for more than 50,000 people.";
+"CristoRedentorDescription" = "The best-known religious icon in Brazil is called Christ the Redeemer, it represents Jesus of Nazareth and it took almost half a century to be built, since the original idea comes from the time of Princess Isabel of Portugal, until it was inaugurated in 1931 after five years of completion.";
+"MachuPicchuDescription" = "Machu Picchu is the most outstanding Inca archaeological site due to its creative urban design, the beauty of its architecture and the fine stone work of its constructions. In its planning, the topography of the mountain top was notably taken advantage of, which it transformed into an imposing llaqta.";
+"PetraDescription" = "Petra means “cut out of stone” in Greek. In fact, this city located in a narrow valley is literally carved into the rock. Petra, or Raqmu, as the Nabateans, its second settlers, called it, is one of those enclaves that leaves you speechless when you visit it for the first time.";
+"ChichenItzaDescription" = "The legendary Mayan city of Chichén Itzá, declared a World Heritage Site by UNESCO since 1988 and Wonder of the World since 2007, stood out as the cultural and political center of the old Mayan civilization and was one of the most extensive settlements in the central-northern region. Yucatan Peninsula.";
+"PiramidesDescription" = "The pyramids were built by the pharaohs Cheops (the tallest), Khafre (in the background) and Mycerinus (in front). The construction of the pyramids of Giza has achieved its objective: to last an eternity. The monumental tombs are relics from the time of the Old Kingdom of Egypt and were built about 4,500 years ago.";

@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05186CE2AE84EBA008ADA34 /* HomeWondersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05186D02AE84EBA008ADA34 /* HomeWondersVC.xib */; };
+		A05186E22AE8550E008ADA34 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05186E12AE8550E008ADA34 /* StringExtension.swift */; };
+		A05186FF2AE88117008ADA34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A05187012AE88117008ADA34 /* Localizable.strings */; };
+		A0F6306A2AC4C54000E14FD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630692AC4C54000E14FD2 /* AppDelegate.swift */; };
+		A0F6306C2AC4C54000E14FD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6306B2AC4C54000E14FD2 /* SceneDelegate.swift */; };
+		A0F630732AC4C54100E14FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F630722AC4C54100E14FD2 /* Assets.xcassets */; };
+		A0F630762AC4C54100E14FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F630742AC4C54100E14FD2 /* LaunchScreen.storyboard */; };
+		A0F630862AC4C5AF00E14FD2 /* HomeWondersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630802AC4C5AF00E14FD2 /* HomeWondersPresenter.swift */; };
+		A0F630872AC4C5AF00E14FD2 /* HomeWondersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630812AC4C5AF00E14FD2 /* HomeWondersRouter.swift */; };
+		A0F630882AC4C5AF00E14FD2 /* HomeWondersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630822AC4C5AF00E14FD2 /* HomeWondersInteractor.swift */; };
+		A0F630892AC4C5AF00E14FD2 /* HomeWondersProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630832AC4C5AF00E14FD2 /* HomeWondersProtocol.swift */; };
+		A0F6308A2AC4C5AF00E14FD2 /* HomeWondersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630842AC4C5AF00E14FD2 /* HomeWondersVC.swift */; };
+		A0F630922AC4C5C500E14FD2 /* DetailWonderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F6308C2AC4C5C500E14FD2 /* DetailWonderVC.xib */; };
+		A0F630932AC4C5C500E14FD2 /* DetailWonderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6308D2AC4C5C500E14FD2 /* DetailWonderPresenter.swift */; };
+		A0F630942AC4C5C500E14FD2 /* DetailWonderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6308E2AC4C5C500E14FD2 /* DetailWonderRouter.swift */; };
+		A0F630952AC4C5C500E14FD2 /* DetailWonderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6308F2AC4C5C500E14FD2 /* DetailWonderInteractor.swift */; };
+		A0F630962AC4C5C500E14FD2 /* DetailWonderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630902AC4C5C500E14FD2 /* DetailWonderProtocol.swift */; };
+		A0F630972AC4C5C500E14FD2 /* DetailWonderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630912AC4C5C500E14FD2 /* DetailWonderVC.swift */; };
+		A0F630A52AC4CAFE00E14FD2 /* ListWonderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630A32AC4CAFE00E14FD2 /* ListWonderTableViewCell.swift */; };
+		A0F630A62AC4CAFE00E14FD2 /* ListWonderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F630A42AC4CAFE00E14FD2 /* ListWonderTableViewCell.xib */; };
+		A0F630AA2AC4D58D00E14FD2 /* WonderWorldEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F630A92AC4D58D00E14FD2 /* WonderWorldEntity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A05186CF2AE84EBA008ADA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HomeWondersVC.xib; sourceTree = "<group>"; };
+		A05186E12AE8550E008ADA34 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A05187002AE88117008ADA34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A05187022AE88179008ADA34 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A05187032AE88184008ADA34 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A05187042AE8818F008ADA34 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A0F630662AC4C54000E14FD2 /* WondersOfTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WondersOfTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F630692AC4C54000E14FD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0F6306B2AC4C54000E14FD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0F630722AC4C54100E14FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0F630752AC4C54100E14FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0F630772AC4C54100E14FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F630802AC4C5AF00E14FD2 /* HomeWondersPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWondersPresenter.swift; sourceTree = "<group>"; };
+		A0F630812AC4C5AF00E14FD2 /* HomeWondersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWondersRouter.swift; sourceTree = "<group>"; };
+		A0F630822AC4C5AF00E14FD2 /* HomeWondersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWondersInteractor.swift; sourceTree = "<group>"; };
+		A0F630832AC4C5AF00E14FD2 /* HomeWondersProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWondersProtocol.swift; sourceTree = "<group>"; };
+		A0F630842AC4C5AF00E14FD2 /* HomeWondersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWondersVC.swift; sourceTree = "<group>"; };
+		A0F6308C2AC4C5C500E14FD2 /* DetailWonderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailWonderVC.xib; sourceTree = "<group>"; };
+		A0F6308D2AC4C5C500E14FD2 /* DetailWonderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWonderPresenter.swift; sourceTree = "<group>"; };
+		A0F6308E2AC4C5C500E14FD2 /* DetailWonderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWonderRouter.swift; sourceTree = "<group>"; };
+		A0F6308F2AC4C5C500E14FD2 /* DetailWonderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWonderInteractor.swift; sourceTree = "<group>"; };
+		A0F630902AC4C5C500E14FD2 /* DetailWonderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWonderProtocol.swift; sourceTree = "<group>"; };
+		A0F630912AC4C5C500E14FD2 /* DetailWonderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWonderVC.swift; sourceTree = "<group>"; };
+		A0F630A32AC4CAFE00E14FD2 /* ListWonderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWonderTableViewCell.swift; sourceTree = "<group>"; };
+		A0F630A42AC4CAFE00E14FD2 /* ListWonderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListWonderTableViewCell.xib; sourceTree = "<group>"; };
+		A0F630A92AC4D58D00E14FD2 /* WonderWorldEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderWorldEntity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F630632AC4C54000E14FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A05186E02AE854F4008ADA34 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				A05186E12AE8550E008ADA34 /* StringExtension.swift */,
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
+		A0F6305D2AC4C54000E14FD2 = {
+			isa = PBXGroup;
+			children = (
+				A0F630682AC4C54000E14FD2 /* WondersOfTheWorld */,
+				A0F630672AC4C54000E14FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F630672AC4C54000E14FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630662AC4C54000E14FD2 /* WondersOfTheWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F630682AC4C54000E14FD2 /* WondersOfTheWorld */ = {
+			isa = PBXGroup;
+			children = (
+				A05186E02AE854F4008ADA34 /* Extensiones */,
+				A0F630982AC4C5E900E14FD2 /* HomeWonders */,
+				A0F6309E2AC4C64B00E14FD2 /* DetailWonder */,
+				A0F630692AC4C54000E14FD2 /* AppDelegate.swift */,
+				A0F6306B2AC4C54000E14FD2 /* SceneDelegate.swift */,
+				A0F630722AC4C54100E14FD2 /* Assets.xcassets */,
+				A0F630742AC4C54100E14FD2 /* LaunchScreen.storyboard */,
+				A05187012AE88117008ADA34 /* Localizable.strings */,
+				A0F630772AC4C54100E14FD2 /* Info.plist */,
+			);
+			path = WondersOfTheWorld;
+			sourceTree = "<group>";
+		};
+		A0F6307D2AC4C56200E14FD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630A72AC4CB0100E14FD2 /* Cell */,
+				A05186D02AE84EBA008ADA34 /* HomeWondersVC.xib */,
+				A0F630842AC4C5AF00E14FD2 /* HomeWondersVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0F6307E2AC4C56B00E14FD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6308C2AC4C5C500E14FD2 /* DetailWonderVC.xib */,
+				A0F630912AC4C5C500E14FD2 /* DetailWonderVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0F630982AC4C5E900E14FD2 /* HomeWonders */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630A82AC4D55600E14FD2 /* Entity */,
+				A0F6309C2AC4C62C00E14FD2 /* Router */,
+				A0F6309B2AC4C61900E14FD2 /* Protocols */,
+				A0F6309A2AC4C60F00E14FD2 /* Interactor */,
+				A0F630992AC4C5FC00E14FD2 /* Presenter */,
+				A0F6307D2AC4C56200E14FD2 /* View */,
+			);
+			path = HomeWonders;
+			sourceTree = "<group>";
+		};
+		A0F630992AC4C5FC00E14FD2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630802AC4C5AF00E14FD2 /* HomeWondersPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A0F6309A2AC4C60F00E14FD2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630822AC4C5AF00E14FD2 /* HomeWondersInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A0F6309B2AC4C61900E14FD2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630832AC4C5AF00E14FD2 /* HomeWondersProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A0F6309C2AC4C62C00E14FD2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630812AC4C5AF00E14FD2 /* HomeWondersRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A0F6309E2AC4C64B00E14FD2 /* DetailWonder */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630A22AC4C66C00E14FD2 /* Protocols */,
+				A0F630A12AC4C66600E14FD2 /* Router */,
+				A0F630A02AC4C66200E14FD2 /* Interactor */,
+				A0F6309F2AC4C65C00E14FD2 /* Presenter */,
+				A0F6307E2AC4C56B00E14FD2 /* View */,
+			);
+			path = DetailWonder;
+			sourceTree = "<group>";
+		};
+		A0F6309F2AC4C65C00E14FD2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6308D2AC4C5C500E14FD2 /* DetailWonderPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A0F630A02AC4C66200E14FD2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6308F2AC4C5C500E14FD2 /* DetailWonderInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A0F630A12AC4C66600E14FD2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6308E2AC4C5C500E14FD2 /* DetailWonderRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A0F630A22AC4C66C00E14FD2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630902AC4C5C500E14FD2 /* DetailWonderProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A0F630A72AC4CB0100E14FD2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630A32AC4CAFE00E14FD2 /* ListWonderTableViewCell.swift */,
+				A0F630A42AC4CAFE00E14FD2 /* ListWonderTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A0F630A82AC4D55600E14FD2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A0F630A92AC4D58D00E14FD2 /* WonderWorldEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F630652AC4C54000E14FD2 /* WondersOfTheWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F6307A2AC4C54100E14FD2 /* Build configuration list for PBXNativeTarget "WondersOfTheWorld" */;
+			buildPhases = (
+				A0F630622AC4C54000E14FD2 /* Sources */,
+				A0F630632AC4C54000E14FD2 /* Frameworks */,
+				A0F630642AC4C54000E14FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WondersOfTheWorld;
+			productName = WondersOfTheWorld;
+			productReference = A0F630662AC4C54000E14FD2 /* WondersOfTheWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F6305E2AC4C54000E14FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A0F630652AC4C54000E14FD2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A0F630612AC4C54000E14FD2 /* Build configuration list for PBXProject "WondersOfTheWorld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				fr,
+				"pt-BR",
+			);
+			mainGroup = A0F6305D2AC4C54000E14FD2;
+			productRefGroup = A0F630672AC4C54000E14FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F630652AC4C54000E14FD2 /* WondersOfTheWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F630642AC4C54000E14FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F630922AC4C5C500E14FD2 /* DetailWonderVC.xib in Resources */,
+				A05186FF2AE88117008ADA34 /* Localizable.strings in Resources */,
+				A0F630762AC4C54100E14FD2 /* LaunchScreen.storyboard in Resources */,
+				A0F630732AC4C54100E14FD2 /* Assets.xcassets in Resources */,
+				A05186CE2AE84EBA008ADA34 /* HomeWondersVC.xib in Resources */,
+				A0F630A62AC4CAFE00E14FD2 /* ListWonderTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F630622AC4C54000E14FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F630882AC4C5AF00E14FD2 /* HomeWondersInteractor.swift in Sources */,
+				A0F630972AC4C5C500E14FD2 /* DetailWonderVC.swift in Sources */,
+				A0F630962AC4C5C500E14FD2 /* DetailWonderProtocol.swift in Sources */,
+				A0F630862AC4C5AF00E14FD2 /* HomeWondersPresenter.swift in Sources */,
+				A05186E22AE8550E008ADA34 /* StringExtension.swift in Sources */,
+				A0F630A52AC4CAFE00E14FD2 /* ListWonderTableViewCell.swift in Sources */,
+				A0F630942AC4C5C500E14FD2 /* DetailWonderRouter.swift in Sources */,
+				A0F6308A2AC4C5AF00E14FD2 /* HomeWondersVC.swift in Sources */,
+				A0F630932AC4C5C500E14FD2 /* DetailWonderPresenter.swift in Sources */,
+				A0F630AA2AC4D58D00E14FD2 /* WonderWorldEntity.swift in Sources */,
+				A0F630952AC4C5C500E14FD2 /* DetailWonderInteractor.swift in Sources */,
+				A0F630892AC4C5AF00E14FD2 /* HomeWondersProtocol.swift in Sources */,
+				A0F6306A2AC4C54000E14FD2 /* AppDelegate.swift in Sources */,
+				A0F630872AC4C5AF00E14FD2 /* HomeWondersRouter.swift in Sources */,
+				A0F6306C2AC4C54000E14FD2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A05186D02AE84EBA008ADA34 /* HomeWondersVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05186CF2AE84EBA008ADA34 /* Base */,
+			);
+			name = HomeWondersVC.xib;
+			sourceTree = "<group>";
+		};
+		A05187012AE88117008ADA34 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05187002AE88117008ADA34 /* en */,
+				A05187022AE88179008ADA34 /* es */,
+				A05187032AE88184008ADA34 /* fr */,
+				A05187042AE8818F008ADA34 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A0F630742AC4C54100E14FD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F630752AC4C54100E14FD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F630782AC4C54100E14FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0F630792AC4C54100E14FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F6307B2AC4C54100E14FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HQBXG26N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WondersOfTheWorld/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Karilu.WondersOfTheWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0F6307C2AC4C54100E14FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HQBXG26N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WondersOfTheWorld/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Karilu.WondersOfTheWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F630612AC4C54000E14FD2 /* Build configuration list for PBXProject "WondersOfTheWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F630782AC4C54100E14FD2 /* Debug */,
+				A0F630792AC4C54100E14FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F6307A2AC4C54100E14FD2 /* Build configuration list for PBXNativeTarget "WondersOfTheWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F6307B2AC4C54100E14FD2 /* Debug */,
+				A0F6307C2AC4C54100E14FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F6305E2AC4C54000E14FD2 /* Project object */;
+}

@@ -1,0 +1,25 @@
+/* 
+  Español.strings
+  WondersOfTheWorld
+
+  Created by KARILU GUTIERREZ VICENTE on 24/10/23.
+  
+*/
+// MARK: Nombres de las maravillas dle mundo
+"MurallaChina" = "La Gran Muralla China";
+"TajMahal" = "Taj Mahal";
+"Coliseo" = "El Coliseo Romano";
+"CristoRedentor" = "El Cristo Redentor";
+"MachuPicchu" = "Machu Picchu";
+"Petra" = "Petra";
+"ChichenItza" = "Chichén Itzá";
+"Piramides" = "Pirámides de Giza";
+// MARK: Descripciones
+"MurallaChinaDescription" = "Construida entre el 770 y el 476 aC, la Gran Muralla China es una maravilla arquitectónica y el mayor proyecto de defensa militar del mundo antiguo. Mide 21.196,18 km y tiene una altura promedio de 7.8 metros. Cumple varias funciones como combate, comando, observación, comunicación y ocultación.";
+"TajMahalDescription" = "El Taj Mahal es un mausoleo construido por el emperador mogol Sha Jahan en honor a su esposa preferida, Mumtaz Mahal (la Elegida del Palacio o la Joya del Palacio), muerta al dar a luz. Taj Mahal (abreviación del nombre de Mumtaz Mahal) significa también “La Joya del Palacio”.";
+"ColiseoDescription" = "El Coliseo se convirtió en el mayor anfiteatro romano, con una estructura elíptica de 188 metros de longitud, 156 metros de ancho y 57 metros de altura. Realizado en ladrillo y cubierto con travertino se dividía en cinco niveles con una capacidad para más de 50.000 personas.";
+"CristoRedentorDescription" = "El icono religioso más conocido de Brasil recibe el nombre de Cristo Redentor, representa a Jesús de Nazaret y tardó casi medio siglo en levantarse, pues la idea original proviene de la época de la princesa Isabel de Portugal, hasta que se inaugura en 1931 tras cinco años de realización.";
+"MachuPicchuDescription" = "Machu Picchu es el sitio arqueológico inca más sobresaliente debido a su creativo diseño urbano, la belleza de su arquitectura y el fino trabajo en piedra de sus construcciones. En su planificación se aprovechó notablemente la topografía de la cima de la montaña a la que transformó en una imponente llaqta.";
+"PetraDescription" = "Petra significa “excavada en piedra” en griego. En efecto, esta ciudad ubicada en un angosto valle, está literalmente tallada en la roca. Petra, o Raqmu, como la llamaban los nabateos, sus segundos pobladores, es uno de esos enclaves que dejan sin palabras cuando se visita por primera vez.";
+"ChichenItzaDescription" = "La legendaria ciudad maya de Chichén Itzá, Patrimonio de la Humanidad declarada por la UNESCO desde 1988 y Maravilla del Mundo desde 2007, sobresalió como centro cultural y político de la vieja civilización maya y fue uno de los asentamientos más extensos del centro-norte de la península de Yucatán.";
+"PiramidesDescription" = "Las pirámides fueron construidas por los faraones Keops (la más alta), Kefrén (al fondo) y Micerino (al frente). La construcción de las pirámides de Guiza ha logrado su objetivo: perdurar una eternidad. Las monumentales tumbas son reliquias de la época del Reino Antiguo de Egipto y se construyeron hace unos 4500 años.";

@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  WondersOfTheWorld
+
+  Created by KARILU GUTIERREZ VICENTE on 24/10/23.
+  
+*/
+// MARK: Nombres de las maravillas del mundo
+"MaravillasDelMundo" = "Merveilles du monde";
+"MurallaChina" = "La grande muraille de Chine";
+"TajMahal" = "Taj Mahal";
+"Coliseo" = "Colisée romain";
+"CristoRedentor" = "Christ Rédempteur";
+"MachuPicchu" = "Machu Picchu";
+"Petra" = "Petra";
+"ChichenItza" = "Chichén Itzá";
+"Piramides" = "Pyramides de Gizeh";
+// MARK: Descripciones
+"MurallaChinaDescription" = "Construite entre 770 et 476 avant JC, la Grande Muraille de Chine est une merveille architecturale et le plus grand projet de défense militaire du monde antique. Il mesure 21 196,18 km et a une hauteur moyenne de 7,8 mètres. Il remplit diverses fonctions telles que le combat, le commandement, l'observation, la communication et la dissimulation.";
+"TajMahalDescription" = "Le Taj Mahal est un mausolée construit par l'empereur moghol Shah Jahan en l'honneur de son épouse préférée, Mumtaz Mahal (l'élue du palais ou le joyau du palais), décédée en couches. Taj Mahal (abréviation de Mumtaz Mahal) signifie également « Le joyau du palais ».";
+"ColiseoDescription" = "Le Colisée est devenu le plus grand amphithéâtre romain, avec une structure elliptique de 188 mètres de long, 156 mètres de large et 57 mètres de haut. Construit en brique et recouvert de travertin, il était divisé en cinq niveaux pouvant accueillir plus de 50 000 personnes.";
+"CristoRedentorDescription" = "L'icône religieuse la plus connue du Brésil s'appelle le Christ Rédempteur, elle représente Jésus de Nazareth et sa construction a duré près d'un demi-siècle, puisque l'idée originale vient de l'époque de la princesse Isabelle du Portugal, jusqu'à son inauguration en 1931. après cinq ans d'achèvement.";
+"MachuPicchuDescription" = "Machu Picchu est le site archéologique inca le plus remarquable en raison de son design urbain créatif, de la beauté de son architecture et de la finesse de ses constructions en pierre. Dans sa planification, la topographie du sommet de la montagne a été particulièrement exploitée, qu'elle a transformée en un imposant llaqta.";
+"PetraDescription" = "Petra signifie « taillé dans la pierre » en grec. En fait, cette ville située dans une vallée étroite est littéralement creusée dans la roche. Petra, ou Raqmu, comme l'appelaient les Nabatéens, ses seconds colons, est une de ces enclaves qui vous laisse sans voix lorsque vous la visitez pour la première fois.";
+"ChichenItzaDescription" = "La légendaire ville maya de Chichén Itzá, déclarée site du patrimoine mondial de l'UNESCO depuis 1988 et merveille du monde depuis 2007, s'est imposée comme le centre culturel et politique de l'ancienne civilisation maya et a été l'une des colonies les plus étendues du centre-ville. Région Nord Péninsule du Yucatan.";
+"PiramidesDescription" = "Les pyramides ont été construites par les pharaons Khéops (le plus haut), Khafré (au fond) et Mycérinus (devant). La construction des pyramides de Gizeh a atteint son objectif : durer une éternité. Les tombeaux monumentaux sont des reliques de l’époque de l’Ancien Empire égyptien et ont été construits il y a environ 4 500 ans.";
